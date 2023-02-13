@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  box-sizing: border-box;
+
+  width: 371px;
+  height: 48px;
+
+  background: #ffffff;
+  border: 1px solid #bcbcbc;
+
+  border-radius: 4px;
+  padding-left: 16px;
+
+  /* Inside auto layout */
+}
+label {
+  width: 371px;
+  height: 21px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+/* h6 is a little description of each input field */
+h6 {
+  width: 100%;
+  height: 21px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+
+  /* შავი/500 */
+
+  color: #2e2e2e;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.add-photo {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #1a1a1a;
+}
+
+.upload-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 12px;
+
+  border: none;
+  background: #0e80bf;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 107px;
+  height: 27px;
+}
+.sign-up-box {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 70px;
+}
+
+::placeholder {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 131% */
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.next-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 60px;
+  gap: 20px;
+  width: 151px;
+  height: 48px;
+
+  background: #6b40e3;
+  border: none;
+  border-radius: 4px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: 0.08em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.add-experience-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 289px;
+  height: 48px;
+
+  background: #62a1eb;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+}
+
+.name {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 42px;
+  /* identical to box height */
+
+  color: #f93b1d;
+  flex-wrap: wrap;
+}
+.dyn-info {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* off black */
+
+  color: #1a1a1a;
+}
+
+/* .Form {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+} */
+
+.form-template {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 68px 80px;
+  /* width: 822px;
+  height: 1080px; */
+}
+
+.profile {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.email-div {
+  display: flex;
+  gap: 10px;
+}
+
+.phone-div {
+  display: flex;
+  gap: 10px;
+}
+
+.aboutMe h1 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #f93b1d;
+}
+.aboutMe p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+
+  text-transform: lowercase;
+
+  color: #000000;
+}
+
+.name-contacts-div {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.contacts-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.profile-pic {
+  width: 246px;
+  height: 246px;
+  border-radius: 133px;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.experience-heading-div h1 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #f93b1d;
+}
+
+.position-employer {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  /* off black */
+
+  color: #1a1a1a;
+}
+
+.start-end-date {
+  font-family: "Helvetica Neue";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #919191;
+}
+
+.description-div p {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+
+  text-transform: capitalize;
+
+  color: #000000;
+}
+.select {
+  width: 371px;
+  height: 48px;
+
+  background: #ffffff;
+  border: 1px solid #98e37e;
+  border-radius: 4px;
+}
+
+.bottom-logo {
+  width: 42px;
+  height: 42px;
+  padding: 68px 80px;
+}
+
+.p-div {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.popup-content {
+  width: 427px;
+  height: 167px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 30px;
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.popup-content h1 {
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 43px;
+  /* or 154% */
+
+  /* off black */
+
+  color: #1a1a1a;
+}
+
+.close-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.top-left-corner {
+  position: absolute;
+  top: 45px;
+  left: 48px;
+}
